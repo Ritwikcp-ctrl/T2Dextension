@@ -1,0 +1,14 @@
+{
+    "manifest_version" :1,
+    "name": "Typing 2 Distance calculator",
+    "version": "1.0",
+    "description" : " Typing converted into Distance",
+    "permissions" :["activeTab","storage"],
+
+    "action" :{
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker":"background.js"
+    }
+}
