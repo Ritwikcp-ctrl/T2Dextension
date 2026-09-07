@@ -1,15 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Keyboard Distance</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
-
 <body>
-  <h1>Keyboard Distance</h1>
 
-  <div id="keys">Loading...</div>
-  <div id="distance">Loading...</div>
+<div class="container">
 
-  <script src="popup.js"></script>
+  <div class="header">
+
+    <div class="logo">
+      ⌨
+    </div>
+
+    <div>
+      <h1>Keyboard Distance</h1>
+      <p>Turn typing into progress</p>
+    </div>
+
+  </div>
+
+
+  <div class="hero">
+
+    <div class="circle">
+
+      <div class="circle-content">
+
+        <div class="shoe">
+          👟
+        </div>
+
+        <div class="distance-row">
+          <span id="distance">0.00</span>
+          <span class="unit">m</span>
+        </div>
+
+        <p id="message">
+          Start typing to begin your journey.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="stats">
+
+    <div class="card">
+      <span class="label">TOTAL KEYS</span>
+      <h2 id="keyCount">0</h2>
+    </div>
+
+    <div class="card">
+      <span class="label">DISTANCE</span>
+      <h2 id="distanceStat">0.00 m</h2>
+    </div>
+
+  </div>
+
+
+  <button id="reset">
+    Reset Counter
+  </button>
+
+
+  <div class="quote">
+
+    <div class="line"></div>
+
+    <p>
+      "A little progress every keystroke."
+    </p>
+
+  </div>
+
+
+  <div class="info">
+
+    <strong>
+      100 keys = 1 meter
+    </strong>
+
+    <span>
+      Keep typing, keep growing.
+    </span>
+
+  </div>
+
+
+  <footer>
+    Built for a mindful digital life
+  </footer>
+
+</div>
+
+<script src="popup.js"></script>
+
 </body>
 </html>
