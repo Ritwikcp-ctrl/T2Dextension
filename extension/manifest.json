@@ -1,17 +1,21 @@
 {
-    "manifest_version" :3,
-    "name": "keyboard-Distance",
-    "version": "1.0",
-    "description" : " Typing converted into Distance",
-    "permissions" :["storage"],
+  "manifest_version": 3,
+  "name": "Keyboard Distance",
+  "version": "1.0.0",
+  "description": "Tracks keyboard distance",
 
-    "action" :{
-        "default_popup": "popup.html"
-    },
-    "content_scripts": [
-        {
-            "matches": ["<all_urls>"],
-            "js":["content.js"]
-        }
-    ] 
+  "permissions": [
+    "storage"
+  ],
+
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
 }

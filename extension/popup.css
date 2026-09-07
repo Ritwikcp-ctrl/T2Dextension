@@ -1,0 +1,34 @@
+body {
+  width: 280px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.distance {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px 0 5px;
+}
+
+#keys {
+  font-size: 16px;
+}
+
+.conversion {
+  font-size: 12px;
+  color: gray;
+}
+
+button {
+  padding: 8px 20px;
+  cursor: pointer;
+}
